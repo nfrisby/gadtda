@@ -2,7 +2,7 @@ run `make` to build three variants of Increase and dump the core.
 
 The code depends on three CPP flags.
 
-  <none> -- this most straightforward code incurs mutually recursive
+  no flags -- this most straightforward code incurs mutually recursive
   dictinaries, which prevent inlining.
 
   FAST -- avoids the problematic mutual recursion at the cost of a simple
